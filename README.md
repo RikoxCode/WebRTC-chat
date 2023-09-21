@@ -7,13 +7,13 @@ A simple web application that establishes a peer-to-peer connection for video ch
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/RikoxCode/WebRTC-chat.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd <project-directory>
+    cd WebRTC-chat
     ```
 
 3. Open the `index.html` file in a web browser of your choice to start the WebRTC application.
@@ -32,7 +32,7 @@ A simple web application that establishes a peer-to-peer connection for video ch
 
 ## Authors
 
-- [Your Name](https://github.com/your-username)
+- [RikoxCode](https://github.com/RikoxCode)
 
 ## License
 
