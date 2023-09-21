@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>myRikox</title>
+</head>
+<body>
+    <script src="./router/router.js"></script>
+
+    <!--Initialize routs-->
+    <script>
+        const router = new SPARouter('app')
+
+        router.navigateTo('/')
+    </script>
+
+    <!--Navigation-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="router.navigateTo('/');">Home</a></li>
+                <li><a href="#chat" onclick="router.navigateTo('/chat');">Chat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="app"></div>
+
+</body>
+</html>
